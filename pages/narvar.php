@@ -114,7 +114,7 @@
                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
                               <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
                            </svg>
-                           <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                           <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                               5
                               <span class="visually-hidden">unread messages</span>
                            </span>
@@ -135,7 +135,7 @@
                               <line x1="3" y1="6" x2="21" y2="6"></line>
                               <path d="M16 10a4 4 0 0 1-8 0"></path>
                            </svg>
-                           <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                           <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                               1
                               <span class="visually-hidden">unread messages</span>
                            </span>
@@ -194,7 +194,7 @@
                               <rect x="3" y="14" width="7" height="7"></rect>
                            </svg>
                         </span>
-                        All Departments
+                        Categorías
                      </a>
                      <div class="collapse mt-2" id="collapseExample">
                         <div class="card card-body">
@@ -220,22 +220,22 @@
                               <rect x="3" y="14" width="7" height="7"></rect>
                            </svg>
                         </span>
-                        All Departments
+                        Categorías
                      </button>
                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="pages/shop-grid.html">Dairy, Bread & Eggs</a></li>
-                        <li><a class="dropdown-item" href="pages/shop-grid.html">Snacks & Munchies</a></li>
-                        <li><a class="dropdown-item" href="pages/shop-grid.html">Fruits & Vegetables</a></li>
-                        <li><a class="dropdown-item" href="pages/shop-grid.html">Cold Drinks & Juices</a></li>
-                        <li><a class="dropdown-item" href="pages/shop-grid.html">Breakfast & Instant Food</a></li>
-                        <li><a class="dropdown-item" href="pages/shop-grid.html">Bakery & Biscuits</a></li>
-                        <li><a class="dropdown-item" href="pages/shop-grid.html">Chicken, Meat & Fish</a></li>
+                        <li><a class="dropdown-item" href="pages/shop-grid.html">Herramientas manuales</a></li>
+                        <li><a class="dropdown-item" href="pages/shop-grid.html">Herramientas eléctricas</a></li>
+                        <li><a class="dropdown-item" href="pages/shop-grid.html">Materiales de construcción</a></li>
+                        <li><a class="dropdown-item" href="pages/shop-grid.html">Fontanería</a></li>
+                        <li><a class="dropdown-item" href="pages/shop-grid.html">Protección y seguridad</a></li>
+                        <li><a class="dropdown-item" href="pages/shop-grid.html">Tornillería y similares</a></li>
+                        <li><a class="dropdown-item" href="pages/shop-grid.html">Fijaciones y adhesivos</a></li>
                      </ul>
                   </div>
                   <div>
                      <ul class="navbar-nav align-items-center">
                         <li class="nav-item dropdown w-100 w-lg-auto">
-                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Inicio</a>
                            <ul class="dropdown-menu">
                               <li><a class="dropdown-item" href="index.html">Home 1</a></li>
                               <li><a class="dropdown-item" href="pages/index-2.html">Home 2</a></li>
@@ -247,7 +247,7 @@
                            </ul>
                         </li>
                         <li class="nav-item dropdown w-100 w-lg-auto">
-                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tienda</a>
                            <ul class="dropdown-menu">
                               <li><a class="dropdown-item" href="pages/shop-grid.html">Shop Grid - Filter</a></li>
                               <li><a class="dropdown-item" href="pages/shop-grid-3-column.html">Shop Grid - 3 column</a></li>
@@ -334,7 +334,7 @@
                            </ul>
                         </li>
                         <li class="nav-item dropdown w-100 w-lg-auto">
-                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Account</a>
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cuenta</a>
                            <ul class="dropdown-menu">
                               <li><a class="dropdown-item" href="pages/signin.html">Sign in</a></li>
                               <li><a class="dropdown-item" href="pages/signup.html">Signup</a></li>
@@ -352,10 +352,10 @@
                            </ul>
                         </li>
                         <li class="nav-item w-100 w-lg-auto">
-                           <a class="nav-link" href="dashboard/index.html">Dashboard</a>
+                           <a class="nav-link" href="dashboard/index.html">Panel</a>
                         </li>
                         <li class="nav-item dropdown w-100 w-lg-auto dropdown-flyout">
-                           <a class="nav-link" href="#" id="navbarDropdownDocs" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Docs</a>
+                           <a class="nav-link" href="#" id="navbarDropdownDocs" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Documentos</a>
                            <div class="dropdown-menu dropdown-menu-lg" aria-labelledby="navbarDropdownDocs">
                               <a class="dropdown-item align-items-start" href="docs/index.html">
                                  <div>

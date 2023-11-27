@@ -359,61 +359,58 @@
             <div class="modal-body p-6">
                <div class="d-flex justify-content-between align-items-start">
                   <div>
-                     <h5 class="mb-1" id="locationModalLabel">Choose your Delivery Location</h5>
-                     <p class="mb-0 small">Enter your address and we will specify the offer you area.</p>
+                     <h5 class="mb-1" id="locationModalLabel">Elija su lugar de entrega</h5>
+                     <p class="mb-0 small">EIntroduce tu dirección y te concretaremos la oferta en tu zona..</p>
                   </div>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                </div>
                <div class="my-5">
-                  <input type="search" class="form-control" placeholder="Search your area" />
+                  <input type="search" class="form-control" placeholder="Busca tu zona" />
                </div>
                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <h6 class="mb-0">Select Location</h6>
-                  <a href="#" class="btn btn-outline-gray-400 text-muted btn-sm">Clear All</a>
+                  <h6 class="mb-0">Seleccionar Ubicación</h6>
+                  <a href="#" class="btn btn-outline-gray-400 text-muted btn-sm">Limpiar todo</a>
                </div>
                <div>
                   <div data-simplebar style="height: 300px">
                      <div class="list-group list-group-flush">
                         <a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action active">
-                           <span>Alabama</span>
+                           <span>Sutatausa</span>
                            <span>Min:$20</span>
                         </a>
                         <a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                           <span>Alaska</span>
+                           <span>Tausa</span>
                            <span>Min:$30</span>
                         </a>
                         <a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                           <span>Arizona</span>
+                           <span>Cucunubá</span>
                            <span>Min:$50</span>
                         </a>
                         <a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                           <span>California</span>
+                           <span>Carmen de Carupa</span>
                            <span>Min:$29</span>
                         </a>
                         <a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                           <span>Colorado</span>
+                           <span>Lenguazaque</span>
                            <span>Min:$80</span>
                         </a>
                         <a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                           <span>Florida</span>
+                           <span>Guachetá</span>
                            <span>Min:$90</span>
                         </a>
                         <a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                           <span>Arizona</span>
+                           <span>Fúquene</span>
                            <span>Min:$50</span>
                         </a>
                         <a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                           <span>California</span>
+                           <span>Simijaca</span>
                            <span>Min:$29</span>
                         </a>
                         <a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                           <span>Colorado</span>
+                           <span>Susa</span>
                            <span>Min:$80</span>
                         </a>
-                        <a href="#" class="list-group-item d-flex justify-content-between align-items-center px-2 py-3 list-group-item-action">
-                           <span>Florida</span>
-                           <span>Min:$90</span>
-                        </a>
+                      
                      </div>
                   </div>
                </div>
@@ -428,28 +425,47 @@
       <section class="mt-8">
          <div class="container">
             <div class="hero-slider">
-               <div style="background: url(assets/images/slider/slide-1.jpg) no-repeat; background-size: cover; border-radius: 0.5rem; background-position: center">
+               <div style="background: url(ferrehierros/herramientas.jpg) no-repeat; background-size: cover; border-radius: 0.5rem; background-position: center">
                   <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
-                     <span class="badge text-bg-warning">Opening Sale Discount 50%</span>
+                     <span class="badge text-bg-warning">Descuento de ventas 50%</span>
 
-                     <h2 class="text-dark display-5 fw-bold mt-4">SuperMarket For Fresh Grocery</h2>
-                     <p class="lead">Introduced a new model for online grocery shopping and convenient home delivery.</p>
+                     <h2 class="display-5 fw-bold mt-4" style="color:#000">Herramientas de calidad.</h2>
+                     <p class="lead" style="color:#ffffff">Tu visión, nuestras herramientas, el combo perfecto para el éxito.</p>
                      <a href="#!" class="btn btn-dark mt-3">
                         Shop Now
                         <i class="feather-icon icon-arrow-right ms-1"></i>
                      </a>
                   </div>
                </div>
-               <div style="background: url(assets/images/slider/slider-2.jpg) no-repeat; background-size: cover; border-radius: 0.5rem; background-position: center">
+               <div style="background: url(ferrehierros/varilla.png
+               ) no-repeat; background-size: cover; border-radius: 0.5rem; background-position: center">
                   <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
-                     <span class="badge text-bg-warning">Free Shipping - orders over $100</span>
+                     <span class="badge text-bg-warning">Envío gratuito: pedidos superiores a $100</span>
                      <h2 class="text-dark display-5 fw-bold mt-4">
-                        Free Shipping on
+                        
+                    Envío gratuito a  
                         <br />
-                        orders over
+                        pedidos superiores a
                         <span class="text-primary">$100</span>
                      </h2>
-                     <p class="lead">Free Shipping to First-Time Customers Only, After promotions and discounts are applied.</p>
+                     <p class="lead">Envío gratuito solo para clientes nuevos, después de aplicar promociones y descuentos.</p>
+                     <a href="#!" class="btn btn-dark mt-3">
+                        Shop Now
+                        <i class="feather-icon icon-arrow-right ms-1"></i>
+                     </a>
+                  </div>
+               </div>
+               <div style="background: url(ferrehierros/cementos.jpg
+               ) no-repeat; background-size: cover; border-radius: 0.5rem; background-position: center">
+                  <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
+                     <span class="badge text-bg-warning">Envío gratuito: pedidos superiores a $100</span>
+                     <h2 class="text-dark display-5 fw-bold mt-4">
+                     Envío gratuito a 
+                        <br />
+                        pedidos superiores a
+                        <span class="text-primary">$100</span>
+                     </h2>
+                     <p class="lead">Cimiento fuerte, sueños más grandes. Nuestro cemento, tu garantía de resistencia.</p>
                      <a href="#!" class="btn btn-dark mt-3">
                         Shop Now
                         <i class="feather-icon icon-arrow-right ms-1"></i>
@@ -465,7 +481,7 @@
          <div class="container">
             <div class="row">
                <div class="col-12 mb-6">
-                  <h3 class="mb-0">Featured Categories</h3>
+                  <h3 class="mb-0">Categorías Destacadas</h3>
                </div>
             </div>
             <div class="category-slider">
@@ -615,7 +631,7 @@
          <div class="container">
             <div class="row">
                <div class="col-12 mb-6">
-                  <h3 class="mb-0">Popular Products</h3>
+                  <h3 class="mb-0">Productos Destacados</h3>
                </div>
             </div>
 
@@ -1085,7 +1101,7 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12 mb-6">
-                  <h3 class="mb-0">Daily Best Sells</h3>
+                  <h3 class="mb-0">Mejores ventas diarias</h3>
                </div>
             </div>
             <div class="table-responsive-xl pb-6">
