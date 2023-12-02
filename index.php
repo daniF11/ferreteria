@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from freshcart.codescandy.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Nov 2023 12:56:57 GMT -->
+<!-- Mirrored from freshcart.codescandy.com/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Nov 2023 12:56:57 GMT -->
 
 <head>
    <!-- Required meta tags -->
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
    <meta content="Codescandy" name="author" />
-   <title>Homepage v1 - eCommerce HTML Template - FreshCart</title>
+   <title>Ferrehierros</title>
 
    <link href="assets/libs/slick-carousel/slick/slick.css" rel="stylesheet" />
    <link href="assets/libs/slick-carousel/slick/slick-theme.css" rel="stylesheet" />
    <link href="assets/libs/tiny-slider/dist/tiny-slider.css" rel="stylesheet" />
 
    <!-- Favicon icon-->
-   <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon/favicon.ico" />
+   <link rel="shortcut icon" type="image/x-icon" href="../freshcart.codescandy.com/ferrehierros/logop.png" />
 
    <!-- Libs CSS -->
    <link href="assets/libs/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
@@ -40,7 +40,7 @@
 <body>
    <!-- navbar -->
    <?php
-      include ("pages/narvar.php");
+   include("pages/narvar.php");
    ?>
    <!-- Modal -->
    <div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
@@ -113,7 +113,7 @@
                            <img src="assets/images/products/product-img-1.jpg" alt="Ecommerce" class="icon-shape icon-xxl" />
                            <div class="ms-3">
                               <!-- title -->
-                              <a href="pages/shop-single.html" class="text-inherit">
+                              <a href="pages/shop-single.php" class="text-inherit">
                                  <h6 class="mb-0">Haldiram's Sev Bhujia</h6>
                               </a>
                               <span><small class="text-muted">.98 / lb</small></span>
@@ -156,9 +156,9 @@
                   <div class="row align-items-center">
                      <div class="col-6 col-md-6 col-lg-7">
                         <div class="d-flex">
-                           <img src="assets/images/products/product-img-2.jpg" alt="Ecommerce" class="icon-shape icon-xxl" />
+                           <img src="ferrehierros/guantes.png" alt="Ecommerce" class="icon-shape icon-xxl" />
                            <div class="ms-3">
-                              <a href="pages/shop-single.html" class="text-inherit">
+                              <a href="pages/shop-single.php" class="text-inherit">
                                  <h6 class="mb-0">NutriChoice Digestive</h6>
                               </a>
                               <span><small class="text-muted">250g</small></span>
@@ -206,7 +206,7 @@
                            <img src="assets/images/products/product-img-3.jpg" alt="Ecommerce" class="icon-shape icon-xxl" />
                            <div class="ms-3">
                               <!-- title -->
-                              <a href="pages/shop-single.html" class="text-inherit">
+                              <a href="pages/shop-single.php" class="text-inherit">
                                  <h6 class="mb-0">Cadbury 5 Star Chocolate</h6>
                               </a>
                               <span><small class="text-muted">1 kg</small></span>
@@ -255,7 +255,7 @@
                            <div class="ms-3">
                               <!-- title -->
                               <!-- title -->
-                              <a href="pages/shop-single.html" class="text-inherit">
+                              <a href="pages/shop-single.php" class="text-inherit">
                                  <h6 class="mb-0">Onion Flavour Potato</h6>
                               </a>
                               <span><small class="text-muted">250g</small></span>
@@ -303,7 +303,7 @@
                            <img src="assets/images/products/product-img-5.jpg" alt="Ecommerce" class="icon-shape icon-xxl" />
                            <div class="ms-3">
                               <!-- title -->
-                              <a href="pages/shop-single.html" class="text-inherit">
+                              <a href="pages/shop-single.php" class="text-inherit">
                                  <h6 class="mb-0">Salted Instant Popcorn</h6>
                               </a>
                               <span><small class="text-muted">100g</small></span>
@@ -410,7 +410,7 @@
                            <span>Susa</span>
                            <span>Min:$80</span>
                         </a>
-                      
+
                      </div>
                   </div>
                </div>
@@ -442,8 +442,8 @@
                   <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                      <span class="badge text-bg-warning">Envío gratuito: pedidos superiores a $100</span>
                      <h2 class="text-dark display-5 fw-bold mt-4">
-                        
-                    Envío gratuito a  
+
+                        Envío gratuito a
                         <br />
                         pedidos superiores a
                         <span class="text-primary">$100</span>
@@ -460,7 +460,7 @@
                   <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                      <span class="badge text-bg-warning">Envío gratuito: pedidos superiores a $100</span>
                      <h2 class="text-dark display-5 fw-bold mt-4">
-                     Envío gratuito a 
+                        Envío gratuito a
                         <br />
                         pedidos superiores a
                         <span class="text-primary">$100</span>
@@ -481,161 +481,143 @@
          <div class="container">
             <div class="row">
                <div class="col-12 mb-6">
-                  <h3 class="mb-0">Categorías Destacadas</h3>
+                  <h3 class="mb-0">Productos Destacados</h3>
                </div>
             </div>
             <div class="category-slider">
                <div class="item">
-                  <a href="pages/shop-grid.html" class="text-decoration-none text-inherit">
+                  <a href="pages/shop-grid.php" class="text-decoration-none text-inherit">
                      <div class="card card-product mb-lg-4">
                         <div class="card-body text-center py-8">
-                           <img src="assets/images/category/category-dairy-bread-eggs.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" />
-                           <div class="text-truncate">Dairy, Bread & Eggs</div>
+                           <img src="ferrehierros/cementob.png" alt="Grocery Ecommerce Template" width="120" height="120" class="mb-3 img-fluid" />
+                           <div class="text-truncate">Cemento</div>
                         </div>
                      </div>
                   </a>
                </div>
                <div class="item">
-                  <a href="pages/shop-grid.html" class="text-decoration-none text-inherit">
+                  <a href="pages/shop-grid.php" class="text-decoration-none text-inherit">
                      <div class="card card-product mb-lg-4">
                         <div class="card-body text-center py-8">
-                           <img src="assets/images/category/category-snack-munchies.jpg" alt="Grocery Ecommerce Template" class="mb-3" />
-                           <div class="text-truncate">Snack & Munchies</div>
+                           <img src="ferrehierros/Varilla-Hierro.jpg" width="120" height="120 alt=" Grocery Ecommerce Template" class="mb-3" />
+                           <div class="text-truncate">Hierro</div>
                         </div>
                      </div>
                   </a>
                </div>
                <div class="item">
-                  <a href="pages/shop-grid.html" class="text-decoration-none text-inherit">
+                  <a href="pages/shop-grid.php" class="text-decoration-none text-inherit">
                      <div class="card card-product mb-lg-4">
                         <div class="card-body text-center py-8">
-                           <img src="assets/images/category/category-bakery-biscuits.jpg" alt="Grocery Ecommerce Template" class="mb-3" />
-                           <div class="text-truncate">Bakery & Biscuits</div>
+                           <img src="ferrehierros/flejes.png" width="120" height="120 alt=" Grocery Ecommerce Template" class="mb-3" />
+                           <div class="text-truncate">Hierro Figurado</div>
                         </div>
                      </div>
                   </a>
                </div>
                <div class="item">
-                  <a href="pages/shop-grid.html" class="text-decoration-none text-inherit">
+                  <a href="pages/shop-grid.php" class="text-decoration-none text-inherit">
                      <div class="card card-product mb-lg-4">
                         <div class="card-body text-center py-8">
-                           <img src="assets/images/category/category-instant-food.jpg" alt="Grocery Ecommerce Template" class="mb-3" />
-                           <div class="text-truncate">Instant Food</div>
+                           <img src="ferrehierros/pvc.jpg" width="120" height="120 alt=" Grocery Ecommerce Template" class="mb-3" />
+                           <div class="text-truncate">Tubería</div>
                         </div>
                      </div>
                   </a>
                </div>
                <div class="item">
-                  <a href="pages/shop-grid.html" class="text-decoration-none text-inherit">
+                  <a href="pages/shop-grid.php" class="text-decoration-none text-inherit">
                      <div class="card card-product mb-lg-4">
                         <div class="card-body text-center py-8">
-                           <img src="assets/images/category/category-tea-coffee-drinks.jpg" alt="Grocery Ecommerce Template" class="mb-3" />
-                           <div class="text-truncate">Tea, Coffee & Drinks</div>
+                           <img src="ferrehierros/tornillos.jpg" width="120" height="120" alt="Grocery Ecommerce Template" class="mb-3" />
+                           <div class="text-truncate">Materiales de Fijación</div>
                         </div>
                      </div>
                   </a>
                </div>
                <div class="item">
-                  <a href="pages/shop-grid.html" class="text-decoration-none text-inherit">
+                  <a href="pages/shop-grid.php" class="text-decoration-none text-inherit">
                      <div class="card card-product mb-lg-4">
                         <div class="card-body text-center py-8">
-                           <img src="assets/images/category/category-atta-rice-dal.jpg" alt="Grocery Ecommerce Template" class="mb-3" />
-                           <div class="text-truncate">Atta, Rice & Dal</div>
+                           <img src="ferrehierros/bombillos.jpg" width="120" height="120" alt="Grocery Ecommerce Template" class="mb-3" />
+                           <div class="text-truncate">Iluminación</div>
                         </div>
                      </div>
                   </a>
                </div>
 
                <div class="item">
-                  <a href="pages/shop-grid.html" class="text-decoration-none text-inherit">
+                  <a href="pages/shop-grid.php" class="text-decoration-none text-inherit">
                      <div class="card card-product mb-lg-4">
                         <div class="card-body text-center py-8">
-                           <img src="assets/images/category/category-baby-care.jpg" alt="Grocery Ecommerce Template" class="mb-3" />
-                           <div class="text-truncate">Baby Care</div>
+                           <img src="ferrehierros/bisagra.jpg" width="120" height="120" alt="Grocery Ecommerce Template" class="mb-3" />
+                           <div class="text-truncate">Herrajes y ferretería menor</div>
                         </div>
                      </div>
                   </a>
                </div>
                <div class="item">
-                  <a href="pages/shop-grid.html" class="text-decoration-none text-inherit">
+                  <a href="pages/shop-grid.php" class="text-decoration-none text-inherit">
                      <div class="card card-product mb-lg-4">
                         <div class="card-body text-center py-8">
-                           <img src="assets/images/category/category-chicken-meat-fish.jpg" alt="Grocery Ecommerce Template" class="mb-3" />
-                           <div class="text-truncate">Chicken, Meat & Fish</div>
+                           <img src="ferrehierros/carretilla.png" width="120" height="120" alt="Grocery Ecommerce Template" class="mb-3" />
+                           <div class="text-truncate">Herramientas de jardín</div>
                         </div>
                      </div>
                   </a>
                </div>
-               <div class="item">
-                  <a href="pages/shop-grid.html" class="text-decoration-none text-inherit">
-                     <div class="card card-product mb-lg-4">
-                        <div class="card-body text-center py-8">
-                           <img src="assets/images/category/category-cleaning-essentials.jpg" alt="Grocery Ecommerce Template" class="mb-3" />
-                           <div class="text-truncate">Cleaning Essentials</div>
-                        </div>
-                     </div>
-                  </a>
-               </div>
-               <div class="item">
-                  <a href="pages/shop-grid.html" class="text-decoration-none text-inherit">
-                     <div class="card card-product mb-lg-4">
-                        <div class="card-body text-center py-8">
-                           <img src="assets/images/category/category-pet-care.jpg" alt="Grocery Ecommerce Template" class="mb-3" />
-                           <div class="text-truncate">Pet Care</div>
-                        </div>
-                     </div>
-                  </a>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- Category Section End-->
-      <section>
-         <div class="container">
-            <div class="row">
-               <div class="col-12 col-md-6 mb-3 mb-lg-0">
-                  <div>
-                     <div class="py-10 px-8 rounded" style="background: url(assets/images/banner/grocery-banner.png) no-repeat; background-size: cover; background-position: center">
-                        <div>
-                           <h3 class="fw-bold mb-1">Fruits & Vegetables</h3>
-                           <p class="mb-4">
-                              Get Upto
-                              <span class="fw-bold">30%</span>
-                              Off
-                           </p>
-                           <a href="#!" class="btn btn-dark">Shop Now</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-12 col-md-6">
-                  <div>
-                     <div class="py-10 px-8 rounded" style="background: url(assets/images/banner/grocery-banner-2.jpg) no-repeat; background-size: cover; background-position: center">
-                        <div>
-                           <h3 class="fw-bold mb-1">Freshly Baked Buns</h3>
-                           <p class="mb-4">
-                              Get Upto
-                              <span class="fw-bold">25%</span>
-                              Off
-                           </p>
-                           <a href="#!" class="btn btn-dark">Shop Now</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+
             </div>
          </div>
       </section>
       <!-- Popular Products Start-->
+
       <section class="my-lg-14 my-8">
          <div class="container">
             <div class="row">
                <div class="col-12 mb-6">
-                  <h3 class="mb-0">Productos Destacados</h3>
+                  <h3 class="mb-0">Ferreprociones</h3>
                </div>
             </div>
 
-            <div class="row g-4 row-cols-lg-5 row-cols-2 row-cols-md-3">
+            <section>
+               <div class="container">
+                  <div class="row">
+                     <div class="col-12 col-md-6 mb-3 mb-lg-0">
+                        <div>
+                           <div class="py-10 px-8 rounded" style="background: url(ferrehierros/taladro.jpg) no-repeat; background-size: cover; background-position: center">
+                              <div>
+                                 <h3 class="fw-bold mb-1">Taladro Inalámbrico</h3>
+                                 <p class="mb-4">
+                                    Get Upto
+                                    <span class="fw-bold">30%</span>
+                                    Off
+                                 </p>
+                                 <a href="#!" class="btn btn-dark">Shop Now</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-6">
+                        <div>
+                           <div class="py-10 px-8 rounded" style="background: url(ferrehierros/teja-eternit.jpg) no-repeat; background-size: cover; background-position: center">
+                              <div>
+                                 <h3 class="fw-bold mb-1">Teja Eternit</h3>
+                                 <p class="mb-4">
+                                    Get Upto
+                                    <span class="fw-bold">25%</span>
+                                    Off
+                                 </p>
+                                 <a href="#!" class="btn btn-dark">Shop Now</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <div class="row g-4 row-cols-lg-5 row-cols-2 row-cols-md-3 mt-4">
                <div class="col">
                   <div class="card card-product">
                      <div class="card-body">
@@ -643,7 +625,7 @@
                            <div class="position-absolute top-0 start-0">
                               <span class="badge bg-danger">Sale</span>
                            </div>
-                           <a href="#!"><img src="assets/images/products/product-img-1.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                           <a href="#!"><img src="ferrehierros/destornillador.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid " /></a>
 
                            <div class="card-product-action">
                               <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
@@ -654,9 +636,9 @@
                            </div>
                         </div>
                         <div class="text-small mb-1">
-                           <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
+                           <a href="#!" class="text-decoration-none text-muted"><small>Elementos e instrumentos</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Haldiram's Sev Bhujia</a></h2>
+                        <h2 class="fs-6"><a href="pages/shop-single.php" class="text-inherit text-decoration-none">Destornillador</a></h2>
                         <div>
                            <small class="text-warning">
                               <i class="bi bi-star-fill"></i>
@@ -692,19 +674,19 @@
                            <div class="position-absolute top-0 start-0">
                               <span class="badge bg-success">14%</span>
                            </div>
-                           <a href="pages/shop-single.html"><img src="assets/images/products/product-img-2.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                           <a href="pages/shop-single.php"><img src="ferrehierros/guantes.png" alt="Grocery Ecommerce Template" class="mb-3 img-fluid " /></a>
                            <div class="card-product-action">
                               <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
                                  <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
                               </a>
-                              <a href="pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
+                              <a href="pages/shop-wishlist.php" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
                               <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Compare"><i class="bi bi-arrow-left-right"></i></a>
                            </div>
                         </div>
                         <div class="text-small mb-1">
-                           <a href="#!" class="text-decoration-none text-muted"><small>Bakery & Biscuits</small></a>
+                           <a href="#!" class="text-decoration-none text-muted"><small>Elementos e instrumentos</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">NutriChoice Digestive</a></h2>
+                        <h2 class="fs-6"><a href="pages/shop-single.php" class="text-inherit text-decoration-none">Guantes</a></h2>
                         <div class="text-warning">
                            <small>
                               <i class="bi bi-star-fill"></i>
@@ -734,19 +716,19 @@
                   <div class="card card-product">
                      <div class="card-body">
                         <div class="text-center position-relative">
-                           <a href="pages/shop-single.html"><img src="assets/images/products/product-img-3.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                           <a href="pages/shop-single.php"><img src="ferrehierros/caja.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                            <div class="card-product-action">
                               <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
                                  <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
                               </a>
-                              <a href="pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
+                              <a href="pages/shop-wishlist.php" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
                               <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Compare"><i class="bi bi-arrow-left-right"></i></a>
                            </div>
                         </div>
                         <div class="text-small mb-1">
-                           <a href="#!" class="text-decoration-none text-muted"><small>Bakery & Biscuits</small></a>
+                           <a href="#!" class="text-decoration-none text-muted"><small>Elementos e instrumentos</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Cadbury 5 Star Chocolate</a></h2>
+                        <h2 class="fs-6"><a href="pages/shop-single.php" class="text-inherit text-decoration-none">Caja de Herramientas</a></h2>
                         <div class="text-warning">
                            <small>
                               <i class="bi bi-star-fill"></i>
@@ -779,12 +761,12 @@
                   <div class="card card-product">
                      <div class="card-body">
                         <div class="text-center position-relative">
-                           <a href="pages/shop-single.html"><img src="assets/images/products/product-img-4.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                           <a href="pages/shop-single.php"><img src="ferrehierros/rodillo.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                            <div class="card-product-action">
                               <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
                                  <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
                               </a>
-                              <a href="pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
+                              <a href="pages/shop-wishlist.php" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
                               <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Compare"><i class="bi bi-arrow-left-right"></i></a>
                            </div>
                            <div class="position-absolute top-0 start-0">
@@ -792,9 +774,9 @@
                            </div>
                         </div>
                         <div class="text-small mb-1">
-                           <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
+                           <a href="#!" class="text-decoration-none text-muted"><small>Elementos e instrumentos</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Onion Flavour Potato</a></h2>
+                        <h2 class="fs-6"><a href="pages/shop-single.php" class="text-inherit text-decoration-none">Rodillo</a></h2>
                         <div class="text-warning">
                            <small>
                               <i class="bi bi-star-fill"></i>
@@ -827,19 +809,19 @@
                   <div class="card card-product">
                      <div class="card-body">
                         <div class="text-center position-relative">
-                           <a href="pages/shop-single.html"><img src="assets/images/products/product-img-5.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                           <a href="pages/shop-single.php"><img src="ferrehierros/grifo.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                            <div class="card-product-action">
                               <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
                                  <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
                               </a>
-                              <a href="pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
+                              <a href="pages/shop-wishlist.php" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
                               <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Compare"><i class="bi bi-arrow-left-right"></i></a>
                            </div>
                         </div>
                         <div class="text-small mb-1">
-                           <a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
+                           <a href="#!" class="text-decoration-none text-muted"><small>Elementos e instrumentos</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Salted Instant Popcorn</a></h2>
+                        <h2 class="fs-6"><a href="pages/shop-single.php" class="text-inherit text-decoration-none">Grifo para lavado</a></h2>
                         <div class="text-warning">
                            <small>
                               <i class="bi bi-star-fill"></i>
@@ -875,19 +857,19 @@
                            <div class="position-absolute top-0 start-0">
                               <span class="badge bg-danger">Sale</span>
                            </div>
-                           <a href="#!"><img src="assets/images/products/product-img-6.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                           <a href="#!"><img src="ferrehierros/cablee.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                            <div class="card-product-action">
                               <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
                                  <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
                               </a>
-                              <a href="pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
+                              <a href="pages/shop-wishlist.php" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
                               <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Compare"><i class="bi bi-arrow-left-right"></i></a>
                            </div>
                         </div>
                         <div class="text-small mb-1">
-                           <a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread & Eggs</small></a>
+                           <a href="#!" class="text-decoration-none text-muted"><small>Elementos e instrumentos</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Blueberry Greek Yogurt</a></h2>
+                        <h2 class="fs-6"><a href="pages/shop-single.php" class="text-inherit text-decoration-none">Cable eléctrico</a></h2>
                         <div>
                            <small class="text-warning">
                               <i class="bi bi-star-fill"></i>
@@ -920,19 +902,19 @@
                   <div class="card card-product">
                      <div class="card-body">
                         <div class="text-center position-relative">
-                           <a href="pages/shop-single.html"><img src="assets/images/products/product-img-7.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                           <a href="pages/shop-single.php"><img src="ferrehierros/tomae.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                            <div class="card-product-action">
                               <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
                                  <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
                               </a>
-                              <a href="pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
+                              <a href="pages/shop-wishlist.php" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
                               <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Compare"><i class="bi bi-arrow-left-right"></i></a>
                            </div>
                         </div>
                         <div class="text-small mb-1">
-                           <a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread & Eggs</small></a>
+                           <a href="#!" class="text-decoration-none text-muted"><small>Elementos e instrumentos</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Britannia Cheese Slices</a></h2>
+                        <h2 class="fs-6"><a href="pages/shop-single.php" class="text-inherit text-decoration-none">Toma eléctrica</a></h2>
                         <div class="text-warning">
                            <small>
                               <i class="bi bi-star-fill"></i>
@@ -962,19 +944,19 @@
                   <div class="card card-product">
                      <div class="card-body">
                         <div class="text-center position-relative">
-                           <a href="pages/shop-single.html"><img src="assets/images/products/product-img-8.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                           <a href="pages/shop-single.php"><img src="ferrehierros/pegamentopvc.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                            <div class="card-product-action">
                               <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
                                  <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
                               </a>
-                              <a href="pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
+                              <a href="pages/shop-wishlist.php" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
                               <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Compare"><i class="bi bi-arrow-left-right"></i></a>
                            </div>
                         </div>
                         <div class="text-small mb-1">
-                           <a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
+                           <a href="#!" class="text-decoration-none text-muted"><small>Elementos e instrumentos</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Kellogg's Original Cereals</a></h2>
+                        <h2 class="fs-6"><a href="pages/shop-single.php" class="text-inherit text-decoration-none">Pegamento para PVC</a></h2>
                         <div class="text-warning">
                            <small>
                               <i class="bi bi-star-fill"></i>
@@ -1007,19 +989,19 @@
                   <div class="card card-product">
                      <div class="card-body">
                         <div class="text-center position-relative">
-                           <a href="pages/shop-single.html"><img src="assets/images/products/product-img-9.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                           <a href="pages/shop-single.php"><img src="ferrehierros/linterna.jpeg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                            <div class="card-product-action">
                               <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
                                  <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
                               </a>
-                              <a href="pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
+                              <a href="pages/shop-wishlist.php" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
                               <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Compare"><i class="bi bi-arrow-left-right"></i></a>
                            </div>
                         </div>
                         <div class="text-small mb-1">
-                           <a href="#!" class="text-decoration-none text-muted"><small>Snack & Munchies</small></a>
+                           <a href="#!" class="text-decoration-none text-muted"><small>Elementos e instrumentos</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Slurrp Millet Chocolate</a></h2>
+                        <h2 class="fs-6"><a href="pages/shop-single.php" class="text-inherit text-decoration-none">Linterna de inspección</a></h2>
                         <div class="text-warning">
                            <small>
                               <i class="bi bi-star-fill"></i>
@@ -1052,19 +1034,19 @@
                   <div class="card card-product">
                      <div class="card-body">
                         <div class="text-center position-relative">
-                           <a href="pages/shop-single.html"><img src="assets/images/products/product-img-10.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                           <a href="pages/shop-single.php"><img src="ferrehierros/brocast.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                            <div class="card-product-action">
                               <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
                                  <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
                               </a>
-                              <a href="pages/shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
+                              <a href="pages/shop-wishlist.php" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Wishlist"><i class="bi bi-heart"></i></a>
                               <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" title="Compare"><i class="bi bi-arrow-left-right"></i></a>
                            </div>
                         </div>
                         <div class="text-small mb-1">
-                           <a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread & Eggs</small></a>
+                           <a href="#!" class="text-decoration-none text-muted"><small>Elementos e instrumentos</small></a>
                         </div>
-                        <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Amul Butter - 500 g</a></h2>
+                        <h2 class="fs-6"><a href="pages/shop-single.php" class="text-inherit text-decoration-none">Brocas Taladro</a></h2>
                         <div class="text-warning">
                            <small>
                               <i class="bi bi-star-fill"></i>
@@ -1107,10 +1089,10 @@
             <div class="table-responsive-xl pb-6">
                <div class="row row-cols-lg-4 row-cols-1 row-cols-md-2 g-4 flex-nowrap">
                   <div class="col">
-                     <div class="pt-8 px-6 px-xl-8 rounded" style="background: url(assets/images/banner/banner-deal.jpg) no-repeat; background-size: cover; height: 470px">
+                     <div class="pt-8 px-6 px-xl-8 rounded" style="background: url(ferrehierros/cementossjpg.jpg) no-repeat; background-size: cover; height: 470px">
                         <div>
-                           <h3 class="fw-bold text-white">100% Organic Coffee Beans.</h3>
-                           <p class="text-white">Get the best deal before close.</p>
+                           <h3 class="fw-bold text-white">100% Cemento de confianza.</h3>
+                           <p class="text-white">Construcciones que perduran en el tiempo.</p>
                            <a href="#!" class="btn btn-primary">
                               Shop Now
                               <i class="feather-icon icon-arrow-right ms-1"></i>
@@ -1122,7 +1104,7 @@
                      <div class="card card-product">
                         <div class="card-body">
                            <div class="text-center position-relative">
-                              <a href="pages/shop-single.html"><img src="assets/images/products/product-img-11.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                              <a href="pages/shop-single.php"><img src="ferrehierros/varillas2.png" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
 
                               <div class="card-product-action">
                                  <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
@@ -1133,9 +1115,9 @@
                               </div>
                            </div>
                            <div class="text-small mb-1">
-                              <a href="#!" class="text-decoration-none text-muted"><small>Tea, Coffee & Drinks</small></a>
+                              <a href="#!" class="text-decoration-none text-muted"><small>Material de construcción</small></a>
                            </div>
-                           <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Roast Ground Coffee</a></h2>
+                           <h2 class="fs-6"><a href="pages/shop-single.php" class="text-inherit text-decoration-none">Varilla corrugada</a></h2>
 
                            <div class="d-flex justify-content-between align-items-center mt-3">
                               <div>
@@ -1172,7 +1154,7 @@
                      <div class="card card-product">
                         <div class="card-body">
                            <div class="text-center position-relative">
-                              <a href="pages/shop-single.html"><img src="assets/images/products/product-img-12.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                              <a href="pages/shop-single.php"><img src="ferrehierros/alambre.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                               <div class="card-product-action">
                                  <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
                                     <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
@@ -1182,9 +1164,9 @@
                               </div>
                            </div>
                            <div class="text-small mb-1">
-                              <a href="#!" class="text-decoration-none text-muted"><small>Fruits & Vegetables</small></a>
+                              <a href="#!" class="text-decoration-none text-muted"><small>Material de construcción</small></a>
                            </div>
-                           <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Crushed Tomatoes</a></h2>
+                           <h2 class="fs-6"><a href="pages/shop-single.php" class="text-inherit text-decoration-none">Alambre dulce</a></h2>
                            <div class="d-flex justify-content-between align-items-center mt-3">
                               <div>
                                  <span class="text-dark">$13</span>
@@ -1220,7 +1202,7 @@
                      <div class="card card-product">
                         <div class="card-body">
                            <div class="text-center position-relative">
-                              <a href="pages/shop-single.html"><img src="assets/images/products/product-img-13.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
+                              <a href="pages/shop-single.php"><img src="ferrehierros/tuveria.webp" alt="Grocery Ecommerce Template" class="mb-3 img-fluid" /></a>
                               <div class="card-product-action">
                                  <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal">
                                     <i class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" title="Quick View"></i>
@@ -1230,9 +1212,9 @@
                               </div>
                            </div>
                            <div class="text-small mb-1">
-                              <a href="#!" class="text-decoration-none text-muted"><small>Fruits & Vegetables</small></a>
+                              <a href="#!" class="text-decoration-none text-muted"><small>Fontanería</small></a>
                            </div>
-                           <h2 class="fs-6"><a href="pages/shop-single.html" class="text-inherit text-decoration-none">Golden Pineapple</a></h2>
+                           <h2 class="fs-6"><a href="pages/shop-single.php" class="text-inherit text-decoration-none">Tuvería PVC</a></h2>
                            <div class="d-flex justify-content-between align-items-center mt-3">
                               <div>
                                  <span class="text-dark">$13</span>
@@ -1274,30 +1256,32 @@
                <div class="col-md-6 col-lg-3">
                   <div class="mb-8 mb-xl-0">
                      <div class="mb-6"><img src="assets/images/icons/clock.svg" alt="" /></div>
-                     <h3 class="h5 mb-3">10 minute grocery now</h3>
-                     <p>Get your order delivered to your doorstep at the earliest from FreshCart pickup stores near you.</p>
+                     <h3 class="h5 mb-3">10 minutos de compras ahora</h3>
+                     <p>
+                        Reciba su pedido en la puerta de su casa lo antes posible en las tiendas de recogida Ferrehierros cercanas.</p>
                   </div>
                </div>
                <div class="col-md-6 col-lg-3">
                   <div class="mb-8 mb-xl-0">
                      <div class="mb-6"><img src="assets/images/icons/gift.svg" alt="" /></div>
-                     <h3 class="h5 mb-3">Best Prices & Offers</h3>
-                     <p>Cheaper prices than your local supermarket, great cashback offers to top it off. Get best pricess & offers.</p>
+                     <h3 class="h5 mb-3">Mejores precios y ofertas</h3>
+                     <p>Precios más baratos que los de otra ferretería y excelentes ofertas de reembolso. Obtenga los mejores precios y ofertas.</p>
                   </div>
                </div>
                <div class="col-md-6 col-lg-3">
                   <div class="mb-8 mb-xl-0">
                      <div class="mb-6"><img src="assets/images/icons/package.svg" alt="" /></div>
-                     <h3 class="h5 mb-3">Wide Assortment</h3>
-                     <p>Choose from 5000+ products across food, personal care, household, bakery, veg and non-veg & other categories.</p>
+                     <h3 class="h5 mb-3">Amplio surtido</h3>
+                     <p>
+Explora nuestra amplia selección de más de 100 productos en categorías que abarcan herramientas manuales, eléctricas, materiales de construcción. Encuentra todo lo que necesitas para proyectos, reparaciones en el hogar y mantenimiento.</p>
                   </div>
                </div>
                <div class="col-md-6 col-lg-3">
                   <div class="mb-8 mb-xl-0">
                      <div class="mb-6"><img src="assets/images/icons/refresh-cw.svg" alt="" /></div>
-                     <h3 class="h5 mb-3">Easy Returns</h3>
+                     <h3 class="h5 mb-3">Devoluciones fáciles</h3>
                      <p>
-                        Not satisfied with a product? Return it at the doorstep & get a refund within hours. No questions asked
+                     ¿No estás satisfecho con tu compra? Devuélvela directamente a tu puerta y recibe un reembolso en cuestión de horas. Sin preguntas, sin complicaciones. Tu satisfacción es nuestra prioridad.
                         <a href="#!">policy</a>
                         .
                      </p>
@@ -1468,8 +1452,8 @@
                      <!-- list -->
                      <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#!" class="nav-link">Vegetables & Fruits</a></li>
-                        <li class="nav-item mb-2"><a href="#!" class="nav-link">Breakfast & instant food</a></li>
-                        <li class="nav-item mb-2"><a href="#!" class="nav-link">Bakery & Biscuits</a></li>
+                        <li class="nav-item mb-2"><a href="#!" class="nav-link">Breakfast & Elementos e instrumentos</a></li>
+                        <li class="nav-item mb-2"><a href="#!" class="nav-link">Elementos e instrumentos</a></li>
                         <li class="nav-item mb-2"><a href="#!" class="nav-link">Atta, rice & dal</a></li>
                         <li class="nav-item mb-2"><a href="#!" class="nav-link">Sauces & spreads</a></li>
                         <li class="nav-item mb-2"><a href="#!" class="nav-link">Organic & gourmet</a></li>
@@ -1481,7 +1465,7 @@
                   <div class="col-6">
                      <!-- list -->
                      <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#!" class="nav-link">Dairy, bread & eggs</a></li>
+                        <li class="nav-item mb-2"><a href="#!" class="nav-link">Elementos e instrumentos</a></li>
                         <li class="nav-item mb-2"><a href="#!" class="nav-link">Cold drinks & juices</a></li>
                         <li class="nav-item mb-2"><a href="#!" class="nav-link">Tea, coffee & drinks</a></li>
                         <li class="nav-item mb-2"><a href="#!" class="nav-link">Masala, oil & more</a></li>
@@ -1515,7 +1499,7 @@
                         <li class="nav-item mb-2"><a href="#!" class="nav-link">Shipping</a></li>
                         <li class="nav-item mb-2"><a href="#!" class="nav-link">Product Returns</a></li>
                         <li class="nav-item mb-2"><a href="#!" class="nav-link">FAQ</a></li>
-                        <li class="nav-item mb-2"><a href="pages/shop-checkout.html" class="nav-link">Shop Checkout</a></li>
+                        <li class="nav-item mb-2"><a href="pages/shop-checkout.php" class="nav-link">Shop Checkout</a></li>
                      </ul>
                   </div>
                   <div class="col-6 col-sm-6 col-md-3">
@@ -1644,6 +1628,6 @@
    <script src="assets/js/vendors/zoom.js"></script>
 </body>
 
-<!-- Mirrored from freshcart.codescandy.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Nov 2023 12:57:20 GMT -->
+<!-- Mirrored from freshcart.codescandy.com/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Nov 2023 12:57:20 GMT -->
 
 </html>
